@@ -160,22 +160,33 @@ Each matching gift receives a score from **0 to 100** based on four weighted fac
 ## Project Structure
 
 gift_recommender/
+
 │
+
 ├── knowledge_base/           # CLIPS knowledge base files
+
 │   ├── templates.clp         # Deftemplate definitions (schemas)
+
 │   ├── mappings.clp          # Interest-to-category ontology (50+ mappings)
+
 │   ├── gifts.clp             # Gift database (75 items)
+
 │   └── rules.clp             # Production rules (5 rules with scoring)
+
 │
+
 ├── src/                      # Python source code
+
 │   ├── __init__.py
+
 │   ├── engine.py             # CLIPS wrapper class (GiftRecommender)
+
 │   └── gui.py                # Tkinter graphical user interface
+
 │
+
 ├── main.py                   # Application entry point
-├── build.py                  # PyInstaller build script
-├── generate_paper.py         # Academic paper PDF generator
-├── requirements.txt          # Python dependencies
+
 └── README.md                 # This file
 
 ## How it Works
