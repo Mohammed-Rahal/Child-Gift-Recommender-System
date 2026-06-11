@@ -68,19 +68,25 @@ Selecting the right gift for a child involves balancing multiple factors: age ap
 │ gui.py │
 
 ├─────────────────────────────────────────────────────────┤
+
 │ Inference Engine (CLIPS) │
 
 │ ┌──────────────┐ ┌────────────┐ ┌─────────────────┐ │
+
 │ │ Rule Base │ │ Working │ │ Pattern │ │
 
 │ │ (5 Rules) │ │ Memory │ │ Matcher │ │
 
 │ │ │ │ (Facts) │ │ (Rete Net) │ │
+
 │ └──────────────┘ └────────────┘ └─────────────────┘ │
+
 ├─────────────────────────────────────────────────────────┤
+
 │ Knowledge Base (CLIPS Facts) │
 
 │ ┌──────────────┐ ┌────────────┐ ┌─────────────────┐ │
+
 │ │ Gift │ │ Interest │ │ Templates │ │
 
 │ │ Database │ │ Mappings │ │ & Schemas │ │
@@ -88,8 +94,8 @@ Selecting the right gift for a child involves balancing multiple factors: age ap
 │ │ (75 items) │ │ (50+ map) │ │ (4 templates) │ │
 
 │ └──────────────┘ └────────────┘ └─────────────────┘ │
-└─────────────────────────────────────────────────────────┘
 
+└─────────────────────────────────────────────────────────┘
 
 ### KBS Components
 
