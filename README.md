@@ -53,6 +53,7 @@ Selecting the right gift for a child involves balancing multiple factors: age ap
 
 ## System Architecture
 ┌─────────────────────────────────────────────────────────┐
+
 │ User Interface (Python/Tkinter) │
 
 │ gui.py │
