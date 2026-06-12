@@ -47,7 +47,6 @@ Selecting the right gift for a child involves balancing multiple factors: age ap
 - 📊 **75 gifts** across 10 categories with balanced physical/experience/activity types
 - 🔗 **50+ interest-to-category mappings** for flexible user input
 - 🖥️ **Clean Tkinter GUI** with scrollable inputs and color-coded results
-- 📦 **Standalone executable support** via PyInstaller
 - 🛡️ **Defensive design** — proper working memory cleanup, input validation, error handling
 
 ---
